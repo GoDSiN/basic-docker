@@ -152,7 +152,7 @@ docker ps -a
  docker images
 
  #tag docker to change name with full path
- docker tag <current image name>:<current tag> <docker hub username>/<Repo name>/<image name>:<image tag>
+ docker tag <current image name>:<current tag> <docker hub username>/<Repo name>:<image tag>
 
  #view image for sure
  docker images
@@ -164,6 +164,6 @@ docker ps -a
 
  #push image to docker hub
 
- docker push <docker hub username>/<Repo name>/<image name>:<image tag>
+ docker push <docker hub username>/<Repo name>:<image tag>
 
  ```
