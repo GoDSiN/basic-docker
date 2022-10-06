@@ -145,3 +145,25 @@ docker ps -a
 # Try Web Preview 
 
 ```
+
+## Docker Registry
+ ```bash
+ #view current image
+ docker images
+
+ #tag docker to change name with full path
+ docker tag <current image name>:<current tag> <docker hub username>/<Repo name>/<image name>:<image tag>
+
+ #view image for sure
+ docker images
+
+ #login to docker hub
+ docker login
+ 
+ #fill username & password
+
+ #push image to docker hub
+
+ docker push <docker hub username>/<Repo name>/<image name>:<image tag>
+
+ ```
